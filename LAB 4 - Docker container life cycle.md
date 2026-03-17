@@ -12,7 +12,7 @@ docker image ls
 ### Task 2: Create and Manage Containers
 Create a container from the downloaded image
 ```
-docker container create httpd
+docker container create --name webapp -p 8081:80 httpd
 ```
 List all containers
 ```
