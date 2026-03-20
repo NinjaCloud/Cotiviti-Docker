@@ -131,14 +131,7 @@ docker ps
 ```
 docker run -d --name wordpress --network ct-bridge -p 80:80 ct-wordpress:v1
 ```
-```
-docker ps
-```
-```
-docker exec -it wordpress sh
-```
-```
-apt update && apt install iputils-ping -y
+
 ```
 ```
 ping -c 5 mysql
